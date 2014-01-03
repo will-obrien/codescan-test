@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Chatter Unfollow Rule Job Batch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Chatter Unfollow Rule Jobs Batches</value>
+    </caseValues>
+    <fields>
+        <label><!-- Unfollow scheduled previously? --></label>
+        <name>DelayRuleJob__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Follows Removed --></label>
+        <name>NumFollows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Records --></label>
+        <name>NumRecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Rules for this Job --></label>
+        <name>NumRules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>ObjectName__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

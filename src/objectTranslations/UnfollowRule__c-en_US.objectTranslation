@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Chatter Unfollow Rules</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Chatter Unfollow Rules</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unfollow Delay in Days (optional) --></label>
+        <name>DaysDelay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Label --></label>
+        <name>FieldLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Type --></label>
+        <name>FieldType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Label --></label>
+        <name>ObjectLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>does not contain</masterLabel>
+            <translation><!-- does not contain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals TODAY</masterLabel>
+            <translation><!-- equals TODAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equal</masterLabel>
+            <translation><!-- greater or equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation><!-- greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equal</masterLabel>
+            <translation><!-- less or equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation><!-- less than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equal to</masterLabel>
+            <translation><!-- not equal to --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation><!-- starts with --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unfollow Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Unfortunately, you cannot use a comma for either multiple values or numbers. Please remove any commas, and if desired, create a second rule for additional criteria. --></errorMessage>
+        <name>No_Commas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot use a negative number for the Delay.  Please enter 0 or a positive number. --></errorMessage>
+        <name>No_Negative_Delay</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Error: You must select an object, field, operator, and value before saving. Blank or null values are not supported. --></errorMessage>
+        <name>Rule_objectfield_operator_value_not_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Error: Invalid operator entered.  You must select a valid operator such as &quot;equals&quot; or &quot;not equal to&quot;. --></errorMessage>
+        <name>validate_operator</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Run_All_Active_Unfollow_Rules --></label>
+        <name>Run_All_Active_Unfollow_Rules</name>
+    </webLinks>
+</CustomObjectTranslation>
