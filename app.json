@@ -1,0 +1,13 @@
+{
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "mvn sonar:sonar"
+      },
+      "buildpacks": [
+        { "url": "heroku/java" }
+      ]
+    }
+  }
+}
+

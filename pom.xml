@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.villagechief</groupId>
+	<artifactId>codescan</artifactId>
+	<version>1.1</version>
+	<packaging>pom</packaging>
+	<name>CodeScan Buid</name>
+
+	<properties>
+		<sonar.host.url>http://codescan.villagechief.com/ent/</sonar.host.url>
+		<sonar.sources>.</sonar.sources>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>Ner9fYm0IHcy</sonar.password>
+	</properties>
+
+</project>
