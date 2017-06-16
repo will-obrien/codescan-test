@@ -10,9 +10,11 @@
 
 	<properties>
 		<sonar.host.url>http://codescan.villagechief.com/ent/</sonar.host.url>
-		<sonar.sources>.</sonar.sources>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>Ner9fYm0IHcy</sonar.password>
+		<sonar.sources>.</sonar.sources>
+
+		<sonar.projectKey>something</sonar.projectKey>
 	</properties>
 
 </project>
