@@ -1,7 +1,6 @@
 public class QuoteSyncUtil {
 
     public static boolean isRunningTest = false;  
-
     private static Map<String, String> quoteFieldMap = new Map<String, String>();
     private static Map<String, String> quoteLineFieldMap = new Map<String, String>();
     private static Set<Id> newQuoteIds = new Set<Id>();
