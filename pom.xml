@@ -4,7 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>pom</packaging>
 
-	<artifactId>codescan-test</artifactId>
+	<groupId>com.villagechief</groupId>
+	<artifactId>codescan</artifactId>
 	<version>1.1</version>
 	<name>CodeScan Build From Heroku</name>
 
@@ -13,46 +14,6 @@
 		<sonar.login>admin</sonar.login>
 		<sonar.password>Ner9fYm0IHcy</sonar.password>
 		<sonar.sources>.</sonar.sources>
-		<sonar.branch>HEROKU_TEST_RUN_BRANCH</sonar.branch>
+		<sonar.branch>${env.HEROKU_TEST_RUN_BRANCH}</sonar.branch>
 	</properties>
-
-	<build>
-		<plugins>
-<!--			<plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.3.0.603</version>
-				<executions>
-					<execution>
-						<id>sonarqube</id>
-						<phase>package</phase>
-						<goals>
-							<goal>sonar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>-->
-<plugin>  
-  <groupId>org.codehaus.mojo</groupId> 
-  <artifactId>exec-maven-plugin</artifactId> 
-  <version>1.1.1</version> 
-  <executions>
-    <execution>
-      <goals>
-        <goal>exec</goal> 
-      </goals>
-    </execution>
-  </executions>
-  <configuration>
-    <executable>bash</executable> 
-    <arguments>
-	<argument>-c</argument>
-	<argument>export</argument>
-    </arguments>
-  </configuration>
-</plugin>
-		</plugins>
-
-	</build>
-
 </project>
