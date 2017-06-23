@@ -10,9 +10,9 @@
 	<name>CodeScan Build From Heroku</name>
 
 	<properties>
-		<sonar.host.url>http://codescan.villagechief.com/ent/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>Ner9fYm0IHcy</sonar.password>
+		<sonar.host.url>${env.SONARQUBE_HOST_URL}</sonar.host.url>
+		<sonar.login>${env.SONARQUBE_HOST_USER}</sonar.login>
+		<sonar.password>${env.SONARQUBE_HOST_PASS}</sonar.password>
 		<sonar.sources>.</sonar.sources>
 		<sonar.branch>${env.HEROKU_TEST_RUN_BRANCH}</sonar.branch>
 	</properties>
