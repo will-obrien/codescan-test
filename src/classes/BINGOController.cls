@@ -14,6 +14,7 @@ global with sharing class BINGOController {
     
     private id myid;
     private id myid2;
+    private id myid3;
     public List<User> bingos {get; private set;}
     private List<User> allusers;
     private Set<Id> userids;
