@@ -54,6 +54,9 @@ global with sharing class BINGOController {
      */
     
     public BingoController(){
+	    
+	    integer unusedVariable = 0;
+	    
         myid = UserInfo.getUserId();
         userids = new Set<Id>();
         // Users Following Me
