@@ -4,6 +4,7 @@ global with sharing class BadClass {
     private id myid;
     private id myid2;
     private id myid3;
+    private id myid4;
     public List<User> bingos {get; private set;}
     private List<User> allusers;
     private Set<Id> userids;
