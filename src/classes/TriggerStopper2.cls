@@ -6,5 +6,6 @@ public class TriggerStopper {
 
 void method2(){
 	integer unusedVar = 0;
+	integer unusedVar2 = 0;
 }
 }
