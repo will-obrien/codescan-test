@@ -2,6 +2,7 @@
 private class QuoteSyncTestSuite {
     
     private static Account acc;
+    private Account acc2;
     private static Pricebook2 pb;
     private static Product2 prod;
     private static PricebookEntry pbe;
