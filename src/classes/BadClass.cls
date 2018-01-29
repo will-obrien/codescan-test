@@ -6,5 +6,6 @@ global with sharing class BadClass {
 	    integer unusedVariable2 = 0;
 	    integer unusedVariable34 = 0;
 	    integer unusedVariable6 = 0;
+	    integer unusedVariable6666 = 0;
     }
 }
