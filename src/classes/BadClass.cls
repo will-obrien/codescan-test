@@ -1,5 +1,6 @@
 global with sharing class BadClass {
     
+    private id myid222;
     private id myid;
     public List<User> bingos {get; private set;}
     private List<User> allusers;
