@@ -1,16 +1,8 @@
-public class BadClass{
-    integer unusedVariable1 = 0;
-    integer unusedVariable2 = 0;
-    integer unusedVariable34 = 0;
-    integer unusedVariable6 = 0;
-    integer unusedVariable6666 = 0;
+/** Bad class is an example of really bad code */
+public class BadClass {
 
-	public void BadClass () {
+	public BadClass () {
 		integer x = 1;
-		integer x2 = 1;
-		integer x23 = 1;
-        
-        string y = x > 0 ? 'asdf' : 'erre';
         system.debug(x);
 	}
 }
