@@ -1,5 +1,6 @@
 public class BadClass{
 	
+    private integer unusedVariable123 = 0;
     private integer unusedVariable1 = 0;
     private integer unusedVariable2 = 0;
     private integer unusedVariable34 = 0;
