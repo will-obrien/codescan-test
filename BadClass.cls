@@ -7,6 +7,7 @@ public class BadClass{
     private integer unusedVariable6 = 0;
     private integer unusedVariable6666 = 0;
     private integer unusedVariable77 = 0;
+    private integer unusedVariable88 = 0;
 
 	public BadClass () {
 		integer x = 1;
