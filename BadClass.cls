@@ -1,6 +1,7 @@
 public class BadClass{
 	
 //a new comment to check changes VSTS
+//another comment to check PR
     private integer unusedVariable1 = 0;
     private integer unusedVariable2 = 0;
     private integer unusedVariable34 = 0;
