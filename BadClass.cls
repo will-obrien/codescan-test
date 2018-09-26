@@ -7,8 +7,8 @@ public class BadClass{
     private integer unusedVariable6 = 0;
     private integer unusedVariable6666 = 0;
 
-	public BadClass () {
-		integer x = 1;
+	public BadClass (integer x) {
+		x = 1;
 		integer x2 = 1;
 		integer x23 = 1;
         
